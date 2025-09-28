@@ -10,6 +10,6 @@ entries:
     name: generic-app
     type: application
     urls:
-    - https://github.com/TrideepNandi/helm-generic-chart/generic-app-1.0.0.tgz
+    - https://trideepnandi.github.io/helm-generic-chart/generic-app-1.0.0.tgz
     version: 1.0.0
 generated: "2025-09-28T14:59:08.958591+05:30"

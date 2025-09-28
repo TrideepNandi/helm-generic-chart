@@ -38,9 +38,9 @@ spec:
               service:
                 name: {{ include "generic-app.fullname" $ }}
                 port:
-                  {{ if .portName }}
+                  {{- if .portName }}
                   name: {{ .portName }}
-                  {{ else if .portNumber }}
+                  {{- else if .portNumber }}
                   number: {{ .portNumber }}
                   {{- end }}
           {{- end }}

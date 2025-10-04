@@ -1,14 +1,14 @@
 # generic-app
 
-![Version: 1.1.16](https://img.shields.io/badge/Version-1.1.16-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
+![Version: 1.0.0](https://img.shields.io/badge/Version-1.1.16-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
 
 A Helm chart for Kubernetes generic app
 
 ## Installation
 
 ```bash
-helm repo add nethermind https://nethermindeth.github.io/helm-charts
-helm install generic-app nethermind/generic-app
+helm repo add generic https://trideepnandi.github.io/helm-generic-chart/
+helm install generic-app generic/generic-app
 ```
 
 ## Maintainers

@@ -2,9 +2,20 @@ apiVersion: v1
 entries:
   generic-app:
   - apiVersion: v2
-    created: "2025-10-05T01:46:57.60092+05:30"
+    created: "2026-07-01T21:30:32.953466956Z"
     description: A Helm chart for Kubernetes generic app
-    digest: 2a024fbe463703addae3784045acfe4a0af03f731af692775421b3f16a4acc65
+    digest: 3a34478efc74b09a41f235cc81bc7febd3fd53f28d639fa164f28056b0239f37
+    maintainers:
+    - name: TrideepNandi
+    name: generic-app
+    type: application
+    urls:
+    - https://trideepnandi.github.io/helm-generic-chart/generic-app-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    created: "2026-07-01T21:30:32.952423044Z"
+    description: A Helm chart for Kubernetes generic app
+    digest: c650bcc36c202775b7d48ee56b782ccaba69f23c466bf5461d9e6b36520626e9
     maintainers:
     - name: TrideepNandi
     name: generic-app
@@ -13,7 +24,7 @@ entries:
     - https://trideepnandi.github.io/helm-generic-chart/generic-app-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
-    created: "2025-10-05T01:46:57.599825+05:30"
+    created: "2026-07-01T21:30:32.951404918Z"
     description: A Helm chart for Kubernetes generic app
     digest: b9185f6c9f161091a8a36f9dd9cea31f416db581abfc392f28933f8d0668f7b2
     maintainers:
@@ -23,4 +34,4 @@ entries:
     urls:
     - https://trideepnandi.github.io/helm-generic-chart/generic-app-1.0.0.tgz
     version: 1.0.0
-generated: "2025-10-05T01:46:57.598881+05:30"
+generated: "2026-07-01T21:30:32.95040468Z"

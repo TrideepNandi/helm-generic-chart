@@ -6,6 +6,10 @@ metadata:
   name: {{ include "generic-app.fullname" . }}
   labels:
     {{- include "generic-app.labels" . | nindent 4 }}
+  {{- with .Values.deployment.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
 spec:
   {{- with .Values.deployment.strategy }}
   strategy:

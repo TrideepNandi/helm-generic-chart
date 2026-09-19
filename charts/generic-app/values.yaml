@@ -23,6 +23,13 @@ replicaCount: 1
 # -- Enable Deployment
 deployment:
   enabled: false
+  # -- Annotations set on the Deployment object itself (not the pod template).
+  # Controllers that watch workloads read annotations here rather than on the
+  # pod template - for example Reloader's
+  # `secret.reloader.stakater.com/reload: <secret-name>`, which rolls the
+  # workload when that Secret changes. For annotations that belong on the pods,
+  # use `podAnnotations` instead.
+  annotations: {}
   # This section is for setting up autoscaling more information can be found here: https://kubernetes.io/docs/concepts/workloads/autoscaling/
   autoscaling:
     enabled: false
@@ -36,6 +43,9 @@ deployment:
 # -- Enable StatefulSet
 statefulSet:
   enabled: false
+  # -- Annotations set on the StatefulSet object itself (not the pod template).
+  # See `deployment.annotations` for why this is distinct from `podAnnotations`.
+  annotations: {}
   # -- Enable PVC for StatefulSet
   persistence:
     enabled: false
